@@ -1,0 +1,4 @@
+https://www.section.io/engineering-education/django-docker/
+
+docker build --tag django_todo:latest .
+docker run --name django_todo --rm -d -p 8000:8000 django_todo:latest
